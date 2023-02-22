@@ -49,7 +49,6 @@
   </tr>
 </table>
 
-
 <br>
 
 ### 📌 개요
@@ -72,67 +71,78 @@
   - 브라우저 크기별 반응형 웹 페이지
   - I'mport 결제 모듈 연동으로 다양한 결제 방식 도입 (카카오 페이, 네이버 페이, 카드, PAYCO 등) 지원
   - Axios Interceptor를 이용해 accessToken만료시 refreshToken을 자동요청 하도록 구현함
-  <br>
+    <br>
 
 ### 📌 서비스 화면
 
- ### **로그인** <br/>
- : 카카오 인증과 Spring Security + JWT를 활용한 로그인 서비스. 몽환적인 색감의 뒷배경이 홀릴듯 시선을 앗아간다.
- <br/>가입한 이메일과 패스워드로 로그인을 할 수 있으며, 카카오 로그인 또한 이용할 수 있다.
- <br/>
-  <img src="assets/login.gif" width= "80%">
+### **로그인** <br/>
+
+: 카카오 인증과 Spring Security + JWT를 활용한 로그인 서비스.
+<br/>가입한 이메일과 패스워드로 로그인을 할 수 있다.
+<br/>
+<img src="assets/login.gif" width= "80%">
 
 ### **펀딩 생성** <br/>
+
 : 단체로 가입한 계정으로 펀딩 제목, 상세, 일정, 단계별 펀딩 계획 및 금액을 선택하여 펀딩 항목을 생성할 수 있다.
-<br/>이 때 펀딩 게시물은 승인 대기 상태로 분류된다. 
+<br/>이 때 펀딩 게시물은 승인 대기 상태로 분류된다.
 
    <img src="assets/fundingcreate.gif" width= "80%">
 
 ### **펀딩 리스트** <br/>
+
 : 펀딩에 관련된 총카운트가 실시간으로 명시된 배너 아래, 펀딩 종목별, 펀딩 진행도 별로 구분되어 리스트가 출력된다.
 <br/> 리스트는 아래로 내리면 리스트가 빌 때까지 출력하는 무한 스크롤을 이용하였다.
-  <img src="assets/fundinglist.gif" width= "80%">
+<img src="assets/fundinglist.gif" width= "80%">
 
 ### **펀딩 상세** <br/>
-: 생성한 펀딩 게시물마다 단계별 정보, 일정, 응원 댓글, 보고서 등을 볼 수 있다. 
+
+: 생성한 펀딩 게시물마다 단계별 정보, 일정, 응원 댓글, 보고서 등을 볼 수 있다.
 <br/> 펀딩 생성자는 해당 게시물의 배너 버튼을 통해 라이브 및 펀딩 수정을 진행할 수 있다.
-  <img src="assets/fundingdetail.gif" width= "80%">
+<img src="assets/fundingdetail.gif" width= "80%">
 
 ### **기부** <br/>
+
 : 서비스에서 자체적으로 시행하는 기부 이벤트로, 진행중인 기부 이벤트의 총 금액과, 이전 기부 이벤트의 리스트를 볼 수 있다.
 <br/>
-  <img src="assets/donation.gif" width= "80%">
+<img src="assets/donation.gif" width= "80%">
 
 ### **라이브** <br/>
+
 : WebRTC_OpenVidu를 이용해 구현한 자체 라이브 서비스로, 봉사 단체와 펀딩 참여자 간의 소통을 이루게하여 펀티어가 지향하는 투명한 봉사를 돕는다.<br/>
 라이브 방송 동안, 참여자는 펀티어 마일리지를 이용해 진행자에게 마일리지를 선물할 수 있고, 이는 소리와 텍스트로 이루어진 알림으로 출력된다.
 <br/>
-  <img src="assets/live.gif" width= "80%">
+<img src="assets/live.gif" width= "80%">
 
 ### **프로필** <br/>
+
 : 단체, 개인 회원은 프로필 페이지를 통해 정보를 확인, 수정이 가능하다.
 <br/>
-  <img src="assets/profile.gif" width= "80%">
+<img src="assets/profile.gif" width= "80%">
 
 ### **충전** <br/>
+
 : 충전 페이지에선 현재 남은 마일리지 잔액을 확인할 수 있고, I'mport 결제모듈 활용해 결제를 진행하면 해당 금액만큼 마일리지를 충전할 수 있다.
 <br/>
-  <img src="assets/charge.gif" width= "80%">
+<img src="assets/charge.gif" width= "80%">
 
 ### **서비스 소개** <br/>
-: 감성적인 봄 웜톤 계열의 파스텔 핑크 배경이 코랄 핑크의 개체 이미지와 적절히 어우러지며 선형적이고도 차분한 순차적 설명글들이 적절히 페이드되어 펀티어만의 따뜻하고 감정충만한 도움의 색채를 잘 드러내는 듯하다.
+
+: 서비스의 기대효과.
 <br/>
-  <img src="assets/service.gif" width= "80%">
+<img src="assets/service.gif" width= "80%">
 
 ### **고객센터** <br/>
+
 : FAQ와 공지사항 게시판을 만날 수 있다.
 <br/>
-  <img src="assets/customercenter.gif" width= "80%">
+<img src="assets/customercenter.gif" width= "80%">
 
 ### **관리자 페이지** <br/>
+
 : 개인회원관리, 펀딩관리, 단체관리, 기부관리, 공지사항 관리 등의 관리자 기능을 종합해둔 관리자 페이지이다.
 <br/>
-  <img src="assets/admin.gif" width= "80%">
+<img src="assets/admin.gif" width= "80%">
 
 <br>
 <br>
