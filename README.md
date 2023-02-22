@@ -40,9 +40,9 @@
    <td align="center"><a href="https://github.com/bangbongbim"><img src="https://avatars.githubusercontent.com/u/37106496?v=4" width="100px;" alt=""/>
    <br /><sub><b>bangbongbim</b><br></sub></a>
    <sub><b>FE</b><br></sub></td>
-   <td align="center"><a href="https://github.com/sub9707"><img src="https://media.tenor.com/XC6WMTebka0AAAAC/%EA%B0%90%EC%82%AC%ED%95%A9%EB%8B%88%EB%8B%A4-thank-you.gif" width="100px;" alt=""/>
-   <br /><sub><b>김승섭</b><br></sub></a>
-       <sub><b>FE</b><br></sub></td>
+   <td align="center"><a href="https://github.com/sub9707"><img src="https://avatars.githubusercontent.com/u/110171787?v=4" width="100px;" alt=""/>
+   <br /><sub><b>sub9707</b><br></sub></a>
+   <sub><b>FE</b><br></sub></td>
    <td align="center"><a href="https://github.com/becoding96"><img src="https://avatars.githubusercontent.com/u/88614621?v=4" width="100px;" alt=""/>
    <br /><sub><b>becoding96</b><br></sub></a>
       <sub><b>FE</b><br></sub></td>
